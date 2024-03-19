@@ -28,7 +28,6 @@
 
 .lista { /*tag li da lista não ordena*/
     flex-wrap: wrap;
-
 }
 
 /*****************************************************************/
@@ -51,15 +50,15 @@
 
 #session_1 {
     background-color: #df7c65;
-    padding: 200px;
+    /* padding: 200px; */
 }
 
 /*****************************************************************/
 
 #session_app {
     display: flex;
-    padding: 80px;
     background-color: #ffcfba;
+    /* padding: 200px; */
 }
 
 /*****************************************************************/
@@ -68,7 +67,28 @@
     background-image: url(img/img_APP.png);
 }
 
+/*****************************************************************/
+
 #saiba_mais {
-    padding: 80px;
     background-color: #ffcfba;
+    /* padding: 200px; */
 }
+
+/*****************************************************************/
+
+#session_cofre {
+    display: flex;
+    background-color: #633280;
+    opacity: 70%;
+}
+
+/*****************************************************************/
+
+body {
+    background-image: url(img/img\ cofre\ fundo.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*****************************************************************/
