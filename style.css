@@ -1,0 +1,74 @@
+
+/*****************************************************************/
+
+* { /*global landing page*/
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*****************************************************************/
+
+.cab { /*elemento header*/
+    padding: 70px;
+    background-color: #7e0703;
+}
+
+/*****************************************************************/
+
+.menu-header { /*ul lista não ordenada*/
+
+    display: flex;
+    justify-content: end;
+}
+
+/*****************************************************************/
+
+.lista { /*tag li da lista não ordena*/
+    flex-wrap: wrap;
+
+}
+
+/*****************************************************************/
+
+.link { /*tag a dos links*/
+    color:#ffff;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+/*****************************************************************/
+
+.link:hover { /*hover da tag a*/
+    color:#633280;
+    transition: 1s;
+
+}
+
+/*****************************************************************/
+
+#session_1 {
+    background-color: #df7c65;
+    padding: 200px;
+}
+
+/*****************************************************************/
+
+#session_app {
+    display: flex;
+    padding: 80px;
+    background-color: #ffcfba;
+}
+
+/*****************************************************************/
+
+.div.img-app {
+    background-image: url(img/img_APP.png);
+}
+
+#saiba_mais {
+    padding: 80px;
+    background-color: #ffcfba;
+}
