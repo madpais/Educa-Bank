@@ -13,7 +13,7 @@
 
 .cab { /*elemento header*/
     padding: 70px;
-    background-color: #7e0703;
+    background-color:#7e0703;
 }
 
 /*****************************************************************/
@@ -64,7 +64,7 @@
 /*****************************************************************/
 
 .div.img-app {
-    background-image: url(img/img_APP.png);
+   
 }
 
 /*****************************************************************/
@@ -92,3 +92,25 @@ body {
 }
 
 /*****************************************************************/
+
+.rodape {
+    background-color: #4b0c07;
+    display: block;
+    justify-content: center;
+}
+
+
+
+/*****************************************************************/
+
+
+/*
+Undiades de Medida:
+https://www.alura.com.br/artigos/guia-de-unidades-no-css
+
+- px (pixel) é uma unidade de muedida de tamanho fixo. Nao altera de acordo com a resolução de tela.
+- em () trabalha em relação ao tamanho da fonte do elemento pai. Ex 1em, 2em onde o número é o valor multiplicador do tamnaho da fonte pai.
+Obs. o tamanho default de uma fonte é 16px.
+- rem ("root em") é o tamanho de fonte do elemento-raiz do documento, ou seja, o elemento pai maior. No caso o HTML.
+
+*/
