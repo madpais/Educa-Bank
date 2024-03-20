@@ -85,7 +85,7 @@
 /*****************************************************************/
 
 body {
-    background-image: url(img/img\ cofre\ fundo.jpg);
+    background-image: url(img/img_cofre_fundo.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -97,6 +97,7 @@ body {
     background-color: #4b0c07;
     display: block;
     justify-content: center;
+   
 }
 
 
@@ -112,5 +113,6 @@ https://www.alura.com.br/artigos/guia-de-unidades-no-css
 - em () trabalha em relação ao tamanho da fonte do elemento pai. Ex 1em, 2em onde o número é o valor multiplicador do tamnaho da fonte pai.
 Obs. o tamanho default de uma fonte é 16px.
 - rem ("root em") é o tamanho de fonte do elemento-raiz do documento, ou seja, o elemento pai maior. No caso o HTML.
-
+- vw (viewport width) largura em relação ao tamanho da tela do usuário.
+- vh (viewport heigth) altura em relação ao tamanho da tela do usuário.
 */
