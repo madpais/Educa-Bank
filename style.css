@@ -48,17 +48,91 @@
 
 /*****************************************************************/
 
-#session_1 {
-    background-color: #df7c65;
-    /* padding: 200px; */
+#session {
+    background: linear-gradient(90deg, rgba(189,80,63,1) 0%, rgba(223,124,101,1) 0%, rgba(235,232,232,1) 100%);
+    padding: 15rem;
+}
+
+/*****************************************************************/
+
+#session h2{
+    font-size: 3em; /*48px*/
+    color: rgba(0, 0, 0, 0.704);
+}
+
+/*****************************************************************/
+
+#session p{
+    font-size: 2.3em;
+    margin: 20px 0;
+}
+
+/*****************************************************************/
+
+#session button{
+    padding: 25px;
+    border-radius: 50px;
+    border-color:rgb(19,153,108);
+    width: 20em;
+    cursor: pointer;
+}
+
+/*****************************************************************/
+
+#session button a{
+    color:rgb(19,153,108)
+    
+}
+
+/*****************************************************************/
+
+#session button a:hover{
+    color:rgb(19,153,110);
+    transition: 0,1s;
+    
 }
 
 /*****************************************************************/
 
 #session_app {
+    padding: 15rem;
     display: flex;
     background-color: #ffcfba;
-    /* padding: 200px; */
+    justify-content: space-around;
+   
+}
+
+/*****************************************************************/
+
+#session_app p {
+    font-size: 2.9em;
+    margin-bottom: 20px;
+}
+
+#session_app img {
+    width: 30rem;
+    height: 30rem;
+    margin-left: 50px;
+    margin-top: -70px ;
+}
+
+
+/*****************************************************************/
+
+#session_app button{
+    padding: 25px;
+    border-radius: 50px;
+    border-color:rgb(19,153,108);
+    width: 20em;
+    cursor: pointer;
+}
+
+/*****************************************************************/
+
+#session_app button a{
+    color:rgb(19,153,110);
+    transition: 0,1s;
+    
 }
 
 /*****************************************************************/
