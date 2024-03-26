@@ -86,8 +86,9 @@
 
 /*****************************************************************/
 
-#session button a:hover{
+#session button:hover, a:hover {
     color:rgb(19,153,110);
+    background-color: #633280;
     transition: 0,1s;
     
 }
@@ -131,39 +132,94 @@
 
 #session_app button a{
     color:rgb(19,153,110);
-    transition: 0,1s;
-    
+       
 }
 
 /*****************************************************************/
 
-.div.img-app {
-   
+#session_app button:hover, a:hover {
+    color:rgb(19,153,110);
+    background-color: #633280;
+    transition: 0,1s;
 }
 
 /*****************************************************************/
 
 #saiba_mais {
+    padding: 15rem;
     background-color: #ffcfba;
     /* padding: 200px; */
 }
 
 /*****************************************************************/
 
-#session_cofre {
-    display: flex;
-    background-color: #633280;
-    opacity: 70%;
+#saiba_mais h2 {
+   font-size: 2.5em;
+   text-align: center;
+   color: rgba(7, 7, 99, 0.697);
+   margin-top: -20rem;
 }
 
 /*****************************************************************/
 
-body {
-    background-image: url(img/img_cofre_fundo.jpg);
+#saiba_mais p {
+    font-size: 1.4rem;
+    color: rgb(34, 34, 74);
+    margin-bottom: 1.8rem;
+    text-align: left;
+
+}
+
+
+#saiba_mais button{
+    padding: 25px;
+    border-radius: 50px;
+    border-color:rgb(19,153,108);
+    width: 20em;
+    cursor: pointer;
+}
+
+/*****************************************************************/
+
+#saiba_mais button a{
+    color:rgb(19,153,110);
+    transition: 0,1s;
+}
+
+
+/*****************************************************************/
+
+#saiba_mais button:hover, a:hover {
+    color:rgb(19,153,110);
+    background-color: #633280;
+    transition: 0,1s;
+}
+
+/*****************************************************************/
+
+#saiba_mais img {
+width: 45rem;
+margin-left: 170px;
+}
+
+/*****************************************************************/
+
+#session_cofre {
+    display: flex;
+    background: linear-gradient(180deg, #0c16a364 8.33%, rgba(5, 39, 101,0.745) 100%), url(img/img_cofre_fundo.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
 }
+
+/*****************************************************************/
+
+/* body {
+    background-image: url(img/img_cofre_fundo.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
 
 /*****************************************************************/
 
@@ -174,7 +230,13 @@ body {
    
 }
 
+/*****************************************************************/
 
+.line {
+    width: 70%;
+    height: 200%;
+    margin: 4rem auto;
+}
 
 /*****************************************************************/
 
