@@ -75,21 +75,16 @@
     border-color:rgb(19,153,108);
     width: 20em;
     cursor: pointer;
-}
-
-/*****************************************************************/
-
-#session button a{
     color:rgb(19,153,108)
-    
 }
 
 /*****************************************************************/
 
-#session button:hover, a:hover {
-    color:rgb(19,153,110);
-    background-color: #633280;
+#session button:hover {
+    color:#ffff;
+    background-color: #7e0703;
     transition: 0,1s;
+    border-color:#ffff;
     
 }
 
@@ -126,21 +121,16 @@
     border-color:rgb(19,153,108);
     width: 20em;
     cursor: pointer;
+    color:rgb(19,153,108)
 }
 
 /*****************************************************************/
 
-#session_app button a{
-    color:rgb(19,153,110);
-       
-}
-
-/*****************************************************************/
-
-#session_app button:hover, a:hover {
-    color:rgb(19,153,110);
-    background-color: #633280;
-    transition: 0,1s;
+#session_app button:hover {
+    color:#ffff;
+    background-color: #7e0703;
+    transition: 0,1s;    
+    border-color:#ffff;
 }
 
 /*****************************************************************/
@@ -177,22 +167,16 @@
     border-color:rgb(19,153,108);
     width: 20em;
     cursor: pointer;
+    color:rgb(19,153,108)
 }
 
 /*****************************************************************/
 
-#saiba_mais button a{
-    color:rgb(19,153,110);
-    transition: 0,1s;
-}
-
-
-/*****************************************************************/
-
-#saiba_mais button:hover, a:hover {
-    color:rgb(19,153,110);
-    background-color: #633280;
-    transition: 0,1s;
+#saiba_mais button:hover {
+    color:#ffff;
+    background-color: #7e0703;
+    transition: 0,1s;   
+    border-color:#ffff; 
 }
 
 /*****************************************************************/
@@ -210,6 +194,40 @@ margin-left: 170px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 8rem;
+    
+}
+
+/*****************************************************************/
+
+#session_cofre img {
+    width: 35rem;
+    height: auto;
+    margin-top: 9rem;
+    
+}
+
+/*****************************************************************/
+
+#session_cofre h2 {
+    color: #ffff;
+    font-size: 1.8rem;
+    text-align: center;
+    
+}
+
+/*****************************************************************/
+
+#session_cofre p {
+    color: #ffff;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: 700;
+    
+    
 }
 
 /*****************************************************************/
@@ -224,9 +242,24 @@ margin-left: 170px;
 /*****************************************************************/
 
 .rodape {
-    background-color: #4b0c07;
-    display: block;
-    justify-content: center;
+   background-color: #4b0c07;
+   padding: 4rem;
+   text-align: center;
+   
+}
+
+/*****************************************************************/
+
+.rodape img {
+    width: 20rem;
+}
+
+/*****************************************************************/
+
+.rodape .div_footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
    
 }
 
@@ -236,6 +269,28 @@ margin-left: 170px;
     width: 70%;
     height: 200%;
     margin: 4rem auto;
+}
+
+/*****************************************************************/
+
+.rodape p {
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: black;
+}
+
+/*****************************************************************/
+
+.rodape a {
+    font-size: 1rem;
+    color: #ffff;
+}
+
+/*****************************************************************/
+
+.rodape a:hover {
+    color:#633280;
+    transition: 1s;
 }
 
 /*****************************************************************/
